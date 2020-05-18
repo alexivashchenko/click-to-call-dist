@@ -7,9 +7,9 @@ Simple Vanilla JavaScript repository to make phone links callable by "Flash Oper
 
 ## Usage
 
-1. Add to the target links class `click-to-call` (`href` attribute should started from `tel:` or `callto:`).
+1. Add to the target links class `click-to-call` (`href` attribute should be started from `tel:` or `callto:`).
 2. Add to the links page config JavaScript object `CTC_Config`.
-3. Add to the links page JavaScript file `click-to-call-dist.js`.
+3. Add to the links page JavaScript file `click-to-call-dist.js` (right after `CTC_Config` object).
 
 
 ## Config
