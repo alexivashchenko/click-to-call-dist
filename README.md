@@ -2,7 +2,7 @@
 
 ## Description
 
-Simple Vanilla JavaScript repository to make phone links callable by "Flash Operator Panel 2" software.
+Simple Vanilla JavaScript repository to make phone links callable by "VoiceMpower Click to Call" software.
 
 
 ## Usage
@@ -19,8 +19,8 @@ The `CTC_Config` object variables:
 | Variable | Possible values | Default value | Description |
 | ------ | ------- | ------- | ------ |
 | `SSL` | `true` / `false` | `true` | Define if the WebSocket connection should be created with SSL |
-| `Host` | `IP` / `URL` | `192.168.11.52` | Your "Flash Operator Panel 2" software IP address or Host |
-| `Port` | `INT` | `4445` | Your "Flash Operator Panel 2" host port |
+| `Host` | `IP` / `URL` | `192.168.11.52` | Your "VoiceMpower Click to Call" software IP address or Host |
+| `Port` | `INT` | `4445` | Your "VoiceMpower Click to Call" host port |
 | `Extension` | `STRING` | `601` | Your Extension (may be unique for each operator) |
 | `Password` | `STRING` | `601` | Your Password (may be unique for each operator) |
 
