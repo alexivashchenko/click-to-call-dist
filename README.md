@@ -23,6 +23,7 @@ The `CTC_Config` object variables:
 | `Port` | `INT` | `4445` | Your "VoiceMpower Click to Call" host port |
 | `Extension` | `STRING` | `601` | Your Extension (may be unique for each operator) |
 | `Password` | `STRING` | `601` | Your Password (may be unique for each operator) |
+| `debug` | `true` / `false` | `false` | Show / Hide additional debug messages |
 
 
 

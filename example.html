@@ -30,7 +30,8 @@
 			Host: '192.168.11.52',
 			Port: 4445,
 			Extension: 601,
-			Password: 601
+			Password: 601,
+			debug: true
 		}
 	</script>
 	<script src="click-to-call-dist.js"></script>
@@ -54,6 +55,36 @@
 		<br><br>
 		<a href="callto:971501006919" class="click-to-call">971501006919</a>
 		<br><br><br><br>
+
+
+		<br><br>
+		<div id="links"></div>
+
+		<br><br>
+		<button onclick="createPhoneLink()">Create Link</button>
+
+		<script>
+
+			function createPhoneLink() {
+
+				let linksBox = document.querySelector('#links');
+
+				let link = document.createElement('a');
+				let phone = '97150100691' + Math.floor(Math.random() * Math.floor(9));
+				link.innerHTML = phone;
+				link.href = 'tel:' + phone;
+				link.classList.add('click-to-call');
+
+
+				document.querySelector('#links').appendChild(link);
+				document.querySelector('#links').appendChild(document.createElement('br'));
+			}
+		</script>
+
+
+
+
+
 
 		<h2>Unclickable</h2>
 		<a href="tel:971501006919">971501006919</a>
